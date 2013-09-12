@@ -1,6 +1,6 @@
 # twitter-proxy
 
-Tiny Twitter API proxy server. Allows you to make requests to the Twitter API from the comfort of you browser.
+Tiny Twitter API proxy server. Allows you to make requests to the Twitter API from the comfort of your browser.
 
 ## Getting started
 
@@ -8,6 +8,8 @@ Tiny Twitter API proxy server. Allows you to make requests to the Twitter API fr
 - Update `config.js` with the "Consumer key" and "Consumer secret"
 - Generate yourself an access token and access token secret for the app and add this to `config.js`
 - Run the app: `node server.js`
+
+You can now make requests to Twitter API URLs, but to `http://localhost:7890`, from your browser.
 
 ## License
 
