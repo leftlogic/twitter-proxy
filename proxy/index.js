@@ -60,8 +60,6 @@ exports.proxyRequest = function (opts, cb) {
     query: opts.req.query
   });
 
-  console.log('twitterUrl', twitterUrl);
-
   return oa[method](
     twitterUrl,
     opts.config.accessToken,
