@@ -72,7 +72,7 @@ exports.proxyRequest = function (opts, cb) {
  * Filter out unwanted information from a headers object.
  */
 exports.filterHeaders = function (headers) {
-  var reject = ['content-length', 'content-type'];
+  var reject = ['content-length', 'content-type', 'x-content-type-options'];
   return Object.keys(headers).reduce(function (memo, key){
     if (!_.contains(reject, key)) {
       memo[key] = headers[key];
